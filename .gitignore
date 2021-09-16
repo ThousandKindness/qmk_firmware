@@ -59,12 +59,6 @@ CMakeLists.txt
 *.code-workspace
 .stfolder
 .tags
-.vscode/c_cpp_properties.json
-.vscode/ipch/
-.vscode/last.sql
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/temp.sql
 tags
 
 # Ignore image files
@@ -86,3 +80,5 @@ __pycache__
 
 # Allow to exist but don't include it in the repo
 user_song_list.h
+config.bat
+node_modules
