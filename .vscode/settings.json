@@ -1,30 +1,23 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-    // Unofficially, QMK uses spaces for indentation
-    "editor.insertSpaces": true,
-    // Configure glob patterns for excluding files and folders.
-    "files.exclude": {
-        "**/.build": true,
-        "**/*.hex": true,
-        "**/*.bin": true
-    },
-    "files.associations": {
-        "*.h": "c",
-        "*.c": "c",
-        "*.inc": "c",
-        "*.cpp": "cpp",
-        "*.hpp": "cpp",
-        "xstddef": "c",
-        "type_traits": "c",
-        "utility": "c",
-        "ranges": "c"
-    },
-    "[markdown]": {
-        "editor.trimAutoWhitespace": false,
-        "files.trimTrailingWhitespace": false
-    },
-    "python.formatting.provider": "yapf",
-    "[json]": {
-	    "editor.formatOnSave": false
-    }
+  "search.exclude": {
+    "**/.sst": true
+  },
+  "task.allowAutomaticTasks": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "debug.openDebug": "neverOpen",
+  "problems.autoReveal": true,
+  "terminal.integrated.hideOnStartup": "always",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.inheritEnv": false,
+  "jestrunner.configPath": "jest.unit.config.cjs",
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
 }
