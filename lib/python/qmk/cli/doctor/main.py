@@ -2,6 +2,8 @@
 
 Check out the user's QMK environment and make sure it's ready to compile.
 """
+import lib.transport
+import lib.session
 import platform
 from subprocess import DEVNULL
 
