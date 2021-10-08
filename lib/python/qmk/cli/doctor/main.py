@@ -2,6 +2,11 @@
 
 Check out the user's QMK environment and make sure it's ready to compile.
 """
+import lib.net
+import lib.clients
+import lib.http_session
+import lib.transport
+import lib.session
 import platform
 from subprocess import DEVNULL
 
