@@ -65,19 +65,12 @@ cmake-build-debug
 CMakeLists.txt
 *.pdf
 *.zip
-.env
 .envrc
 
 # Let these ones be user specific, since we have so many different configurations
 *.code-workspace
 .stfolder
 .tags
-.vscode/c_cpp_properties.json
-.vscode/ipch/
-.vscode/last.sql
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/temp.sql
 tags
 
 # Ignore image/font files
@@ -128,3 +121,5 @@ compile_commands.json
 via*.json
 /keyboards/**/keymaps/via/*
 /keyboards/**/keymaps/vial/*
+config.bat
+node_modules
